@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Google Font -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.ico"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="rule">
+        <div>
+          <div>
+            <p>RULES</p>
+            <img src="/images/icon-close.svg" alt="" />
+          </div>
+          <div>
+            <p>Win = 1</p>
+            <p>Draw = 0</p>
+            <p>Loss = -1</p>
+          </div>
+        </div>
+        <img src="/images/image-rules.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="overdetail">
+      <div class="detailPop">
+        <div>
+          <h1>Your Score Details</h1>
+          <img src="/images/icon-close.svg" alt="" />
+        </div>
+        <div>
+          <p>Games Played: <span>0</span></p>
+          <p>Wins: <span>0</span></p>
+          <p>Draws: <span>0</span></p>
+          <p>Losses: <span>0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Start Header -->
+      <div class="head">
+        <div class="left triangle">
+          <img src="/images/logo.svg" alt="" />
+        </div>
+        <div class="right">
+          <p>SCORE</p>
+          <span>0</span>
+          <button>Details</button>
+        </div>
+      </div>
+      <!-- End Header -->
+      <!-- Start Middle -->
+      <div class="middle">
+        <!-- choose -->
+        <div class="imgs triangle">
+          <div class="paper" data-color="hsl(230, 89%, 62%)">
+            <img src="images/icon-paper.svg" alt="paper" />
+          </div>
+          <div class="scissors" data-color="hsl(39, 89%, 49%)">
+            <img src="images/icon-scissors.svg" alt="scissors" />
+          </div>
+          <div class="rock" data-color="hsl(349, 71%,52%)">
+            <img src="images/icon-rock.svg" alt="rock" />
+          </div>
+
+          <div class="spock" data-color="hsl(189, 59%, 53%)">
+            <img src="images/icon-spock.svg" alt="spock" />
+          </div>
+
+          <div class="lizard" data-color="hsl(261, 73%, 60%)">
+            <img src="images/icon-lizard.svg" alt="lizard" />
+          </div>
+        </div>
+        <!-- berfore result  -->
+
+        <div class="choose">
+          <div class="player">
+            <h1>YOU PICKED</h1>
+            <div data-color="red">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div class="result">
+            <h2></h2>
+            <button>PLAY AGAIN</button>
+          </div>
+          <div class="pc">
+            <h1>THE HOUSE PICKED</h1>
+            <div data-color="">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Middle -->
+    </div>
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="choose-game">
+        <div>Game One</div>
+        <div>Game Two</div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        and Coded by <a href="https://github.com/Mohammed-Magdy-01#">Luca</a>.
+      </div>
+
+      <div class="rules">
+        <button>RULES</button>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <script src="main.js"></script>
+  </body>
+</html>
