@@ -211,21 +211,21 @@ document
       return 0;
     }
     // change logo
-    document.querySelector(".head .left > img").src = "/images/logo-bonus.svg";
+    document.querySelector(".head .left > img").src = "images/logo-bonus.svg";
 
     document.querySelector(".head .left").classList.remove("triangle");
     document.querySelector(".head .left").classList.add("pentagon");
 
-    localStorage.setItem("logoImg", "/images/logo-bonus.svg");
+    localStorage.setItem("logoImg", "images/logo-bonus.svg");
 
     // change rule
     document.querySelector(".overlay .rule>img").src =
-      "/images/image-rules-bonus.svg";
+      "images/image-rules-bonus.svg";
 
     // change main game background
     document.querySelector(".middle .imgs").style.backgroundImage =
-      `url(/images/bg-pentagon.svg)`;
-    localStorage.setItem("gameBackground", "/images/bg-pentagon.svg");
+      `url(images/bg-pentagon.svg)`;
+    localStorage.setItem("gameBackground", "images/bg-pentagon.svg");
 
     // Show Spock
     document.querySelector(".middle .imgs .spock").style.display = "block";
@@ -262,11 +262,11 @@ document
   .querySelector(".choose-game div:first-child")
   .addEventListener("click", (e) => {
     // change logo
-    document.querySelector(".head .left > img").src = "/images/logo.svg";
+    document.querySelector(".head .left > img").src = "images/logo.svg";
     document.querySelector(".head .left").classList.remove("pentagon");
     document.querySelector(".head .left").classList.add("triangle");
 
-    localStorage.setItem("logoImg", "/images/logo.svg");
+    localStorage.setItem("logoImg", "images/logo.svg");
 
     document.querySelectorAll(".head .left span").forEach((s) => {
       s.style.fontSize = "40px";
@@ -274,12 +274,12 @@ document
 
     // change rule
     document.querySelector(".overlay .rule>img").src =
-      "/images/image-rules.svg";
+      "images/image-rules.svg";
 
     // change main game background
     document.querySelector(".middle .imgs").style.backgroundImage =
-      `url(/images/bg-triangle.svg)`;
-    localStorage.setItem("gameBackground", "/images/bg-triangle.svg");
+      `url(images/bg-triangle.svg)`;
+    localStorage.setItem("gameBackground", "images/bg-triangle.svg");
 
     // remove Spock
     document.querySelector(".middle .imgs .spock").style.display = "none";
