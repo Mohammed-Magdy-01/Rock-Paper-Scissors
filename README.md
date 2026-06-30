@@ -39,8 +39,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/your-solution
-- Live Site URL: https://your-live-site-url.com
+- Solution URL:
+- Live Site URL: https://mohammed-magdy-01.github.io/Rock-Paper-Scissors/
 
 ---
 
@@ -88,4 +88,4 @@ During this project I improved my understanding of:
 ## Author
 
 - GitHub - https://github.com/Mohammed-Magdy-01
-- Frontend Mentor - https://www.frontendmentor.io/profile/YOUR_USERNAME
+- Frontend Mentor - https://www.frontendmentor.io/profile/Mohammed-Magdy-01
