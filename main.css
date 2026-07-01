@@ -427,7 +427,6 @@ body {
   .choose .result.show {
     order: 1;
     display: block;
-    margin-top: -35px;
     margin-left: 20px;
   }
 }
