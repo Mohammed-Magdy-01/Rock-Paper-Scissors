@@ -481,7 +481,7 @@ body {
 @media (max-width: 480px) {
   .choose .player,
   .choose .pc {
-    order: 0;
+    order: -1;
     display: grid;
     width: 90px;
   }
